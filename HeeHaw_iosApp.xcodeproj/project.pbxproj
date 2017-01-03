@@ -12,6 +12,7 @@
 		9D1704331E1B3DF000871CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1704311E1B3DF000871CE4 /* Main.storyboard */; };
 		9D1704351E1B3DF000871CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1704341E1B3DF000871CE4 /* Assets.xcassets */; };
 		9D1704381E1B3DF000871CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1704361E1B3DF000871CE4 /* LaunchScreen.storyboard */; };
+		9D1704401E1B742000871CE4 /* season.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D17043F1E1B742000871CE4 /* season.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9D1704341E1B3DF000871CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D1704371E1B3DF000871CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D1704391E1B3DF000871CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D17043F1E1B742000871CE4 /* season.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = season.jpg; path = "../../../../Documents/photo/mission peak/season.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		9D1704211E1B3DF000871CE4 = {
 			isa = PBXGroup;
 			children = (
+				9D17043F1E1B742000871CE4 /* season.jpg */,
 				9D17042C1E1B3DF000871CE4 /* HeeHaw_iosApp */,
 				9D17042B1E1B3DF000871CE4 /* Products */,
 			);
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					9D1704291E1B3DF000871CE4 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 68A6BQQ6BH;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +129,7 @@
 			files = (
 				9D1704381E1B3DF000871CE4 /* LaunchScreen.storyboard in Resources */,
 				9D1704351E1B3DF000871CE4 /* Assets.xcassets in Resources */,
+				9D1704401E1B742000871CE4 /* season.jpg in Resources */,
 				9D1704331E1B3DF000871CE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68A6BQQ6BH;
 				INFOPLIST_FILE = HeeHaw_iosApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shruti.HeeHaw-iosApp";
@@ -272,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68A6BQQ6BH;
 				INFOPLIST_FILE = HeeHaw_iosApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shruti.HeeHaw-iosApp";
